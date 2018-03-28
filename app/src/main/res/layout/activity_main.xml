@@ -6,9 +6,15 @@
     android:layout_height="match_parent"
     tools:context="com.example.robert.drawableamimation.MainActivity">
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/mapa"
+        android:scaleType="fitXY" />
+
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/loading"/>
+        android:src="@drawable/loading" />
 
 </android.support.constraint.ConstraintLayout>
